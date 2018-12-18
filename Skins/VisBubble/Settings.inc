@@ -25,18 +25,18 @@ Player=CAD
 HideWhenNotPlaying=0
 ;
 ; The size of the circle, to make it into an ellipse just give RadiusY a number
-Radius=35
-RadiusY=75
+Radius=20
+RadiusY=30
 ;
 ; Color of shapes/lines/bars. ItemColor2 is for MultiLineExtrude
 ; You can also input gradient in the format COLOR:PCT|COLOR2:PCT2
 ; example: 255,255,255,255:0|0,0,0,255:100 = white to black
 ; example: FF0000|FFFF00:16|00FF00:33|00FFFF:50|0000FF:67|FF00FF:84|FF0000 = rainbow
 ItemColor=46,139,87|138,43,226:50|46,139,87
-ItemColor2=255,221,0,255
+ItemColor2=3,25,255,255
 ;
 ; Width of shapes/lines/bars
-ItemWidth=3
+ItemWidth=6
 ;
 ; Number of shapes/lines/bars
 NumOfItems=16
@@ -53,10 +53,10 @@ Smoothing=0.1
 ;
 ; NOTE: VALUES ARE ALWAYS CLOCKWISE, STARTING FROM 0 WHICH FACES RIGHT
 ; What angle does the lowest freq start at?
-AngleStartDeg=222.5
+AngleStartDeg=176
 AngleStart=(Rad(#AngleStartDeg#))
 ; How much angle the items fill
-AngleTotalDeg=90
+AngleTotalDeg=180
 AngleTotal=(Rad(#AngleTotalDeg#))
 ;
 ; Set to 0 for counterCW, 1 for CW (DOES NOT affect AngleStart/AngleTotal)
